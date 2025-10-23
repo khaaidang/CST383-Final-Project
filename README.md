@@ -1,11 +1,14 @@
 # Predicting Software Engineering Job Trends in the U.S
 
-#### Authors: Kha Ai Dang, Neng Lao, Enrique Villegas
+#### Team Members: Kha Ai Dang, Neng Lao, Enrique Villegas
 
 ## Introduction
 The Tech industry in the United States is rapidly changing and Software Engineers are some of the key players in driving innovation and economic growth. However, job availability and demand are influenced by factors such as corporate hiring strategies and remote work adoption. With that said, we hope to analyze these patterns in software engineering job listings within the United States to identify current demands, hiring trends, and employer preferences. Using data analysis and predictive modeling, our goal is to forecast future job availability. Ultimately, we are aiming to help job seekers and employers better understand how these factors shape opportunities in the industry and offer data-driven insights into the dynamics of the Software Engineer market.
 
-**Our Dataset:**  
+**Our Goal:**  
+In this project, our goal is to predict job availability and demand for software engineering roles in the United States. Using features such as Job Title, Company, Location, Employment Type, and Remote Work Options, we will create predictive models to estimate job openings and identify factors that influence hiring trends. Our analysis will show which skills and positions are in highest demand, how remote work affects opportunities, and how these patterns may shift over time. Our predictions will hopefully help job seekers and employers make data-driven decisions about our evolving software job market.
+
+**Selection of Data:**  
 For our Final Project, we used US Software Engineer Jobs from Kaggle:  
 https://www.kaggle.com/datasets/mexwell/us-software-engineer-jobs?resource=download.  
   
@@ -23,14 +26,20 @@ All BLS Software and Web Developers, Programmers and Tester roles were considere
   
 This dataset also contains geographic and regional information such as which states have the highest employment, what their mean wage is, and what are the highest-paying metro areas.
 
-**Our Goal:**  
-In this project, our goal is to predict job availability and demand for software engineering roles in the United States. Using features such as Job Title, Company, Location, Employment Type, and Remote Work Options, we will create predictive models to estimate job openings and identify factors that influence hiring trends. Our analysis will show which skills and positions are in highest demand, how remote work affects opportunities, and how these patterns may shift over time. Our predictions will hopefully help job seekers and employers make data-driven decisions about our evolving software job market.
-
 **Features**  
 From Kaggle: title, company, salary, location, hires_needed, urgently_hiring, remote_work_model, is_remote, city_state
 From BLS: AREA_TITLE, TOT_EMP, A_MEAN
 
 ## Methods
+**Tools:**
+- NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn
+- GitHub for Version Control
+- Google Colab, Spyder, VS CODE, Jupyter Notebook
+
+**Models:**
+- KNeighborsClassifier, Linear Regression
+
+## Results
 
 ## Discussion
 
