@@ -33,7 +33,7 @@ This dataset also contains geographic and regional information such as which sta
 
 **Features**  
 From Kaggle: title, company, salary, location, hires_needed, urgently_hiring, remote_work_model, is_remote, city_state
-From BLS: AREA_TITLE, TOT_EMP, A_MEAN
+From BLS: 'AREA_TITLE', 'OCC_CODE', 'OCC_TITLE', 'TOT_EMP', 'H_MEAN', 'A_MEAN', 'H_MEDIAN', 'A_MEDIAN'
 
 ## Methods
 **Tools:**
