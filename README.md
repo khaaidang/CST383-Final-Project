@@ -27,9 +27,11 @@ All BLS Software and Web Developers, Programmers and Tester roles were considere
 This dataset also contains geographic and regional information such as which states have the highest employment, what their mean wage is, and what are the highest-paying metro areas.
 
 **Data Munging / Feature Engineering:**  
-- We created an is_remote column that combined remote_work_model and is_remote into one column
+- We created an is_remote column that combined remote_work_model and is_remote into one column. We then did a Boolean Conversion, turning the values into either 0, for not remote, and  1  for remote.
 - In the Kaggle Dataset, we separated City, and State from each other to better match the State format from the BLS Dataset. Kaggle's Dataset uses State Abbreviations instead of Full State Names, so we also created Dictionary Mappings so that we can use it with the BLS Dataset.
 - We removed features from the Kaggle Dataset that were not going to be used in our project such as: review_count, relative_time, snippet, link, and job_link
+- We performed a weighted wage calculation per state so that we had an average wage for merging with the Kaggle Dataset
+- We merged Kaggle and BLS Dataset by state, giving us state-level context
 
 **Features**  
 From Kaggle: title, company, salary, location, hires_needed, urgently_hiring, remote_work_model, is_remote, city_state
@@ -38,6 +40,7 @@ From BLS: 'AREA_TITLE', 'OCC_CODE', 'OCC_TITLE', 'TOT_EMP', 'H_MEAN', 'A_MEAN', 
 ## Methods
 **Tools:**
 - NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn
+- Scikit-Learn Tools: OneHotEncoder, StandardScaler
 - GitHub for Version Control
 - Google Colab, Spyder, VS CODE, Jupyter Notebook
 
