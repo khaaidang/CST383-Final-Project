@@ -45,7 +45,7 @@ From BLS: 'AREA_TITLE', 'OCC_CODE', 'OCC_TITLE', 'TOT_EMP', 'H_MEAN', 'A_MEAN', 
 - Google Colab, Spyder, VS CODE, Jupyter Notebook
 
 **Models:**
-- KNeighborsClassifier, Linear Regression
+- Linear Regression, KNN Regressor, Decision Tree Regressor, Random Forest Regressor
 
 ## Results
 
