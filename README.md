@@ -48,6 +48,11 @@ From BLS: 'AREA_TITLE', 'OCC_CODE', 'OCC_TITLE', 'TOT_EMP', 'H_MEAN', 'A_MEAN', 
 - Linear Regression, KNN Regressor, Decision Tree Regressor, Random Forest Regressor
 
 ## Results  
+![Model 1](Model1.png)  
+![Module 2](Model2.png)  
+![Module 3](Model3.png)  
+![Module 4](Model4.png)  
+
 
 ## Discussion  
 Using Linear Regression, KNN Regressor, Decision Tree Regressor, and Random Forest Regressor, we attempted to explore a connection between how state-level employment and job demand relate to software engineer salaries in the United States. We first created a separate dataframe called job_demand to count the number of software engineering positions in each state. Then we merged it with employment and wage data from BLS to create demand_df. The job_count feature is the number of software engineering jobs in each state from the Kaggle Dataset while TOT_EMP and ANNUAL_MEAN_WAGE came from the BLS Dataset. We found that states with more software engineering positions offered higher average wages. Each scatterplot compares the predicted salaries from our models to actual salaries from the BLS Dataset. The closer the point to the red dotted line, the closer our prediction was to being accurate. We split our dataset into 70% for training and 30% for testing. We also used the Root Mean Squared Error (RMSE) to measure the average differences between predicted and actual values.
