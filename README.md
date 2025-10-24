@@ -48,10 +48,10 @@ From BLS: 'AREA_TITLE', 'OCC_CODE', 'OCC_TITLE', 'TOT_EMP', 'H_MEAN', 'A_MEAN', 
 - Linear Regression, KNN Regressor, Decision Tree Regressor, Random Forest Regressor
 
 ## Results  
-![Model 1]("Model 1.png")  
-![Module 2]("Model 2.png")  
-![Module 3]("Model 3.png")  
-![Module 4]("Model 4.png")  
+![Model 1](Model%201.png)  
+![Model 2](Model%202.png)  
+![Module 3](Model%203.png)  
+![Module 4](Model%204.png)  
 
 
 ## Discussion  
