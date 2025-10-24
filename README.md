@@ -51,7 +51,7 @@ From BLS: 'AREA_TITLE', 'OCC_CODE', 'OCC_TITLE', 'TOT_EMP', 'H_MEAN', 'A_MEAN', 
 ![Model 1](Model%201.png)  
 ![Model 2](Model%202.png)  
 ![Module 3](Model%203.png)  
-![Module 4](Model%204.png)  
+![Module 4](Model4.png)  
 
 
 ## Discussion  
