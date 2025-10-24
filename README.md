@@ -47,8 +47,9 @@ From BLS: 'AREA_TITLE', 'OCC_CODE', 'OCC_TITLE', 'TOT_EMP', 'H_MEAN', 'A_MEAN', 
 **Models:**
 - Linear Regression, KNN Regressor, Decision Tree Regressor, Random Forest Regressor
 
-## Results
+## Results  
 
-## Discussion
+## Discussion  
+Using Linear Regression, KNN Regressor, Decision Tree Regressor, and Random Forest Regressor, we attempted to explore a connection between how state-level employment and job demand relate to software engineer salaries in the United States. We found that states with more software engineering positions offered higher average wages. Each scatterplot compares the predicted salaries from our models to actual salaries from the BLS Dataset. The closer the point to the red dotted line, the closer our prediction was to being accurate. We split our dataset into 70% for training and 30% for testing. We also used the Root Mean Squared Error (RMSE) to measure the average differences between predicted and actual values.
 
 ## Summary
